@@ -12,17 +12,17 @@ Useage:
 
 stok3r.py -h|--help
 
- -c|--config file     Slic3r generated config file to specify slic3r settings
+ -c|--config file     (Slic3r generated config file to specify slic3r settings)
 
- -p|--path path       Path to scan for stl files. Default is to scan current directory
+ -p|--path path       (Path to scan for stl files. Default is to scan current directory)
 
- -a|--auto n          Automatically scan for and slice stl files every n seconds. Default is 10 seconds. WARNING: When run with -a or --auto, stls are deleted from the specified directory once they have been sliced.
+ -a|--auto n          (Automatically scan for and slice stl files every n seconds. Default is 10 seconds. WARNING: When run with -a or --auto, stls are deleted from the specified directory once they have been sliced.)
 
- -h|--help            Show this basic help file
+ -h|--help            (Show this basic help file)
 
 Example:
 
-stok3r.py -p|--path c:\path\to\stls -c|--config c:\path\to\slic3r\config.ini -a|--auto n
+stok3r.py -p c:\path\to\stls -c c:\path\to\slic3r\config.ini -a 10
 
 
 CCNC licence. Copyright 2013 n stuff. All other rights reserved blah blah blah...
