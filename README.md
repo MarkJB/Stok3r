@@ -24,6 +24,7 @@ Example:
 
 stok3r.py -p c:\path\to\stls -c c:\path\to\slic3r\config.ini -a 10
 
+You will have to tell stok3r.py where to find slic3r-console.exe within the script itself. Set pathToSlic3r = "C:\\Path\\to\\Slic3r\\" on line 42.
 
 CCNC licence. Copyright 2013 n stuff. All other rights reserved blah blah blah...
 
